@@ -47,10 +47,3 @@
 - **Alimentación saludable**: Nutrición equilibrada y beneficiosa
 - **Videos específicos**: Contenido audiovisual especializado por deporte
 
-## Cambios Realizados
-
-- Uso de encabezados con `#` para jerarquía
-- Uso de guiones (`-`) para las listas
-- Términos clave en negrita usando `**`
-- Espaciado consistente para mejor legibilidad
-- Estructura clara y organizada por secciones

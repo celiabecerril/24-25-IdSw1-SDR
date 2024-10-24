@@ -1,15 +1,48 @@
 @startuml evas
 
 package "Formulario" {
-    class Usuario
+    class Usuario{
+        +nombre: String
+        +correo: String
+        +contraseña: String
+        +edad: int
+        +peso: float
+        +estatura: float
+        +sexo: String
+        +objetivo: String
+        +rol : String
+    }
 }
 
 package "PaginaPrincipal" {
-    class Ejercicios
-    class Mural
-    class Perfil
-    class Rutina
-    class Retos
+    class Ejercicios{
+        +nombre: String
+        +descripcion: String
+        +imagen: String
+        +video: String
+        +objetivo: String
+    }
+    class Mural{
+        +eventos: String
+        +noticias: String
+    }
+    class Perfil{
+        +usuario : Usuario
+        +rutina : Rutina
+        +retos : Retos
+    }
+    class Rutina{
+        +nombre: String
+        +dias: int
+        +ejercicios: Ejercicios
+    }
+    class Retos{
+        +nombre: String
+        +descripcion: String
+        +fechaInicio: Date
+        +fechaFin: Date
+        +participantes: Perfil
+    }
 }
 
 Formulario --> PaginaPrincipal : acceso a

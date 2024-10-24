@@ -1,0 +1,16 @@
+@startuml evas
+
+package Formulario {
+    class Registo {}
+    class InicioSesion {}
+}
+
+package PaginaPrincipal {
+    class Tutoriales {}
+    class Mural {}
+    class Perfil {}
+    class Rutina {}
+    class Retos {}
+}
+
+@enduml

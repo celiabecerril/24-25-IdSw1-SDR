@@ -1,16 +1,27 @@
 @startuml evas
 
 package Formulario {
-    class Registo {}
-    class InicioSesion {}
+    class Registro
+    class InicioSesion
 }
 
 package PaginaPrincipal {
-    class Tutoriales {}
-    class Mural {}
-    class Perfil {}
-    class Rutina {}
-    class Retos {}
+    class Tutoriales
+    class Mural
+    class Perfil
+    class Rutina
+    class Retos
 }
+
+Formulario -down-> PaginaPrincipal
+
+InicioSesion --> Perfil
+Registro --> Perfil
+
+Perfil --> Rutina
+Perfil --> Retos
+
+Mural --> Retos 
+Tutoriales --> Rutina 
 
 @enduml

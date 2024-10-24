@@ -1,27 +1,25 @@
 @startuml evas
 
-package Formulario {
-    class Registro
-    class InicioSesion
+package "Formulario" {
+    class Usuario
 }
 
-package PaginaPrincipal {
-    class Tutoriales
+package "PaginaPrincipal" {
+    class Ejercicios
     class Mural
     class Perfil
     class Rutina
     class Retos
 }
 
-Formulario -down-> PaginaPrincipal
+Formulario --> PaginaPrincipal : acceso a
 
-InicioSesion --> Perfil
-Registro --> Perfil
+Usuario --> Perfil : tiene
 
-Perfil --> Rutina
-Perfil --> Retos
+Perfil --> Rutina : define o sigue
+Perfil --> Retos : participa
 
-Mural --> Retos 
-Tutoriales --> Rutina 
+Mural --> Retos : publica
+Ejercicios --> Rutina : conforman
 
 @enduml

@@ -46,7 +46,7 @@
 ## 3. Organización Semanal
 - Planificación semanal de los entrenamientos. Creación de rutinas por parte de los alumnos
 
-## 2. Beneficios de Inscripción: Pase Saludable
+## 4. Beneficios de Inscripción: Pase Saludable
 - Acceso mediante QR a un **Pase Saludable**:
   - 5 sesiones gratuitas de prueba en centros deportivos adheridos.
   - No se permite la repetición de centros deportivos.

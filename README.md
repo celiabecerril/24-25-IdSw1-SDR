@@ -14,8 +14,9 @@
 ### 🌐 Modelo de Dominio
 [🔗 Acceso al Modelo de Dominio](https://github.com/celiabecerril/24-25-IdSw1-SDR/tree/main/MdD)
 
-### 🎭 Actores 
-[🔗 Acceso al Diagrama de Actores](Documentos/Actores/Actores_y_CasosDeUso.md)
+### 🎭 Encontrar Actores y Casos de uso
+[🔗 Acceso Actores, Casos de Uso, Diagramas de Contexto](Documentos/Actores/Actores_y_CasosDeUso.md)
+
 
 
 

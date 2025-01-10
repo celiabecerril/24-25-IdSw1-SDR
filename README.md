@@ -1,3 +1,10 @@
+<div align=right>
+
+[![Static Badge](https://img.shields.io/badge/Inicio-e54d4c?style=flat-square&logo=kasasmart&logoColor=FFFFFF)](https://github.com/celiabecerril/24-25-IdSw1-SDR) 
+[![Static Badge](https://img.shields.io/badge/Reuni%C3%B3n%201-e54d4c?style=flat-square&logo=norton&logoColor=FFFFFF)](https://github.com/celiabecerril/24-25-IdSw1-SDR/tree/reunion-001) [![Static Badge](https://img.shields.io/badge/Reuni%C3%B3n%202-e54d4c?style=flat-square&logo=norton&logoColor=FFFFFF)](https://github.com/celiabecerril/24-25-IdSw1-SDR/tree/reunion-002) [![Static Badge](https://img.shields.io/badge/Reuni%C3%B3n%203-e54d4c?style=flat-square&logo=norton&logoColor=FFFFFF)](https://github.com/celiabecerril/24-25-IdSw1-SDR/tree/reunion-003)
+
+</div>
+
 # 💻 Grupo 1 - Ingeniería de Software I
 
 <div align="center">
